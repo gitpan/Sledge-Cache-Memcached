@@ -5,5 +5,6 @@ WriteMakefile(
     'PREREQ_PM'    => {
         Test::More       => 0.32,
         Cache::Memcached => 1.15,
+        Sledge::Cache    => 0.01,
     },
 );
